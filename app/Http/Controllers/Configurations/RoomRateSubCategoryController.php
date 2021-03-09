@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Configurations;
 
-use App\Configurations\Models\Room;
+use App\Configurations\models\Room;
 use App\Configurations\Models\RoomRate;
 use App\Configurations\Models\RoomRateCategory;
 use App\Configurations\Models\RoomRateSubCategory;

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\BackOffice;
 
-use App\Configurations\Models\City;
+use App\Configurations\models\City;
 use App\Configurations\Models\Company;
 use App\Configurations\Models\CompanyType;
 use App\Configurations\Models\Country;

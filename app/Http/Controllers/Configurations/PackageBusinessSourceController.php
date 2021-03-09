@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Configurations;
 use App\Configurations\Models\Account;
 use App\Configurations\Models\ChargeFrequency;
 use App\Configurations\Models\CommissionType;
-use App\Configurations\Models\Company;
+use App\Configurations\models\Company;
 use App\Configurations\Models\PackageBusinessSource;
 use App\Configurations\Models\SubDepartment;
 use App\Configurations\Models\TaxService;

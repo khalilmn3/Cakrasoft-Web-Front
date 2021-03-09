@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\DB;
 use phpDocumentor\Reflection\Types\Self_;
 use Illuminate\Support\Arr;
 use App\Configurations\Models\Account;
-use App\Configurations\Models\Room;
+use App\Configurations\models\Room;
 use App\Configurations\Models\RoomUnavailable;
 use App\Folio\models\Folio;
 use App\Folio\models\SubFolio;
@@ -4536,7 +4536,7 @@ class ProcedureQueryController extends Controller
             $number, $receiveFrom, $amount, $issuedDate, $forPayment, self::getUserLogin()
         ]);
     }
-
+    
     public static function updateReceipt($number, $receiveFrom, $amount, $issuedDate, $forPayment){
         Self::updateProcedure('receipt(?,?,?,?,?,?)',[
             $number, $receiveFrom, $amount, $issuedDate, $forPayment, self::getUserLogin()

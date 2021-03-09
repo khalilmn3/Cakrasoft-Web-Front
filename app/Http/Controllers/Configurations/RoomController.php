@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Configurations;
 
 use App\Configurations\Models\BedType;
 use App\Configurations\Models\Owner;
-use App\Configurations\Models\Room;
+use App\Configurations\models\Room;
 use App\Configurations\Models\RoomType;
 use App\Configurations\Models\RoomView;
 use App\Guest\models\GuestDetail;

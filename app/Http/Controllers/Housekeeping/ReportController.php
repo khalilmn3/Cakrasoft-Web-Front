@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Housekeeping;
 
-use App\Configurations\Models\Room;
+use App\Configurations\models\Room;
 use App\Http\Controllers\Configurations\Company;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\General\AuditLogController;

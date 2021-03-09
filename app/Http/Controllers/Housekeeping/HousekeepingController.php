@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Housekeeping;
 use App\Configurations\Models\BedType;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\HousekeepingResource;
-use App\Configurations\Models\Room;
+use App\Configurations\models\Room;
 use App\Configurations\Models\RoomType;
 use App\Configurations\Models\RoomUnavailable;
 use App\Configurations\Models\RoomUnavailableReason;

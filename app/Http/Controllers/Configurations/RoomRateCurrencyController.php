@@ -6,7 +6,7 @@ use App\Configurations\Models\Account;
 use App\Configurations\Models\ChargeFrequency;
 use App\Configurations\Models\CommissionType;
 use App\Configurations\Models\Currency;
-use App\Configurations\Models\Package;
+use App\Configurations\models\Package;
 use App\Configurations\Models\RoomRateCurrency;
 use App\Configurations\Models\SubDepartment;
 use App\Configurations\Models\TaxService;

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\NightAudit;
 
-use App\Configurations\Models\Room;
+use App\Configurations\models\Room;
 use App\Configurations\Models\RoomUnavailable;
 use App\Folio\models\Folio;
 use App\Guest\models\GuestDetail;

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Configurations;
 
 use App\Configurations\Models\BedType;
-use App\Configurations\Models\Room;
+use App\Configurations\models\Room;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Validator;

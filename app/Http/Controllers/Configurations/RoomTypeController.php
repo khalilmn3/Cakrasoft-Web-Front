@@ -8,7 +8,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\GlobalVariableController;
 use DB;
 use Illuminate\Support\Arr;
-use App\Configurations\Models\Room;
+use App\Configurations\models\Room;
 use Validator;
 
 class RoomTypeController extends Controller
@@ -131,7 +131,6 @@ class RoomTypeController extends Controller
         if(!empty($keyword) && !empty($searchBy)){
             $model->where($searchBy, 'like', '%'.$keyword.'%');
         };
-
 
         return response()->json([
             'modelGrid' => $model->limit($limit)->get()

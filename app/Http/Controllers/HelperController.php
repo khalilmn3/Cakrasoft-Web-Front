@@ -7,7 +7,7 @@ use App\Configurations\Models\BedType;
 use App\Configurations\Models\Configuration;
 use App\Configurations\Models\Country;
 use App\Configurations\Models\Currency;
-use App\Configurations\Models\Room;
+use App\Configurations\models\Room;
 use App\Configurations\Models\RoomRate;
 use App\Configurations\Models\RoomType;
 use App\Configurations\Models\RoomUnavailable;
@@ -783,7 +783,7 @@ class HelperController extends Controller
                 return $room->get();
     }
 
-    // Dont use this
+    // Dont use this 
     public static function getRoomAvailableByType2($roomType, $bedType, $arrivalDate, $departureDate, $reservationNumber, $folioNumber, $unavailableID,$roomAllotmentID, $isAllotment, $roomNumber, $ready, $isReservation, $isInHouse){
         $ready = $ready <> '' ? $ready : false;
         $countDay = FormatController::daysBetween(FormatController::formatDate($arrivalDate), FormatController::formatDate($departureDate));
@@ -844,7 +844,7 @@ class HelperController extends Controller
 
         if(!empty($bedType)){
             $room->where('bed_type_code', $bedType);
-        }
+        }        
 
         if($allotmentOnly){
             $reservation->where('reservation.is_from_allotment', '-1');

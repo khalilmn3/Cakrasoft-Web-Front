@@ -7,7 +7,7 @@ use App\Reservation;
 use App\Configurations\Models\Company;
 use App\Configurations\Models\CompanyType;
 use App\Configurations\Models\ConstGuestStatus;
-use App\Configurations\Models\Room;
+use App\Configurations\models\Room;
 use App\Configurations\Models\RoomUnavailable;
 use App\Configurations\Models\Market;
 use App\Configurations\Models\SubDepartment;

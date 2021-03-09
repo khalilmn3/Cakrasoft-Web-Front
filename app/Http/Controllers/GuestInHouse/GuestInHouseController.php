@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\GuestInHouse;
 
-use App\Configurations\Models\Room;
+use App\Configurations\models\Room;
 use App\Folio\models\Folio;
 use App\Folio\models\SubFolio;
 use App\Http\Controllers\AuditDateController;
